@@ -280,3 +280,11 @@ header nav a:hover {
 .carrossel-series {
     padding-top: 15px;
 }
+
+.rodape {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

@@ -1,6 +1,6 @@
 $('.owl-carousel').owlCarousel({
     // efeito de loop
-    loop:false,
+    loop:true,
     // margin entre as imagens
     margin:10,
     // botoes de navegacao

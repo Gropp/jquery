@@ -105,6 +105,14 @@ header nav a:hover {
     color: var(--preto);
 }
 
+/* Subtitles */
+.subtitles {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: gray;
+}
+
+
 /* configurando o carrossel */
 
 .box-filme {
@@ -183,6 +191,76 @@ header nav a:hover {
     border: 3px solid white;
 }
 
+.s_img1 {
+    background:url('/img/series/all_of_us_are_dead.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.s_img2 {
+    background:url('/img/series/euphoria.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.s_img3 {
+    background:url('/img/series/flash.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.s_img4 {
+    background:url('/img/series/good_doctor.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.s_img5 {
+    background:url('/img/series/lucifer.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.s_img6 {
+    background:url('/img/series/paixoes_ardentes.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.s_img7 {
+    background:url('/img/series/peaky_blinders.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.s_img8 {
+    background:url('/img/series/twd.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.s_img9 {
+    background:url('/img/series/two_conjectures_about_marriage.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.s_img10 {
+    background:url('/img/series/vikings.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
 .texto-img {
     position: absolute;
     background-color: rgba(0,0,0,0.5);
@@ -196,5 +274,9 @@ header nav a:hover {
 }
 
 .carrossel-filmes {
+    padding-top: 15px;
+}
+
+.carrossel-series {
     padding-top: 15px;
 }

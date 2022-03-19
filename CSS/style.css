@@ -1,0 +1,200 @@
+/* Folha de estilo */
+
+/* declaracao de variaveis na raiz do CSS */
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+/* Geral */
+/* * se refere a todo codigo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+a  {
+    /* limpa o estilo do limk */
+    text-decoration: none;
+}
+
+header .container {
+    display: flex;
+    /* faz o menu ficar em linha */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logotipo {
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 5px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* coisas relacionadas ao filme principal */
+.filme-principal {
+    font-size: 16px;
+    /* coloca uma imagem no fundo e cria uma pelicula escurecendo a imagem para facilitar a leitura */
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/reacher.png');
+    height: 400px;
+    /* faz a imagem do fundo cobrir a div */
+    background-size: cover;
+    /* flex box é um elemento muito importante */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .titulo {
+    margin-top: 10%;
+    margin-left: 15px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filme-principal .descricao {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.filme-principal .container {
+    width: 60%;
+}
+
+.botao {
+    background-color: rgba(77, 71, 71, 0.5);
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 3s ease all;
+}
+
+.botao i {
+    /* margem para afastar o icone da escrita do botao */
+    margin-right: 8px;
+}
+
+.botao:hover {
+    background-color: white;
+    color: var(--preto);
+}
+
+/* configurando o carrossel */
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.img1 {
+    background:url('/img/filmes/agente_das_sombras.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.img2 {
+    background:url('/img/filmes/alerta_vermelho.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.img3 {
+    background:url('/img/filmes/batman.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.img4 {
+    background:url('/img/filmes/encanto.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.img5 {
+    background:url('/img/filmes/gold.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.img6 {
+    background:url('/img/filmes/homem_aranha_sem_volta_para_casa.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.img7 {
+    background:url('/img/filmes/o_projeto_adam.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.img8 {
+    background:url('/img/filmes/red_crescer_e_uma_fera.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.img9 {
+    background:url('/img/filmes/sem_saida.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.img10 {
+    background:url('/img/filmes/um_dia_dificil.jpg');
+    height: 390px;
+    background-size: cover;
+    border: 3px solid white;
+}
+
+.texto-img {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    text-align: right;
+    top: 5px;
+    width: 255px;
+    line-height: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+
+.carrossel-filmes {
+    padding-top: 15px;
+}

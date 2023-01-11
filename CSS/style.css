@@ -55,7 +55,7 @@ header nav a:hover {
 .filme-principal {
     font-size: 16px;
     /* coloca uma imagem no fundo e cria uma pelicula escurecendo a imagem para facilitar a leitura */
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/reacher.png');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/reacher.png');
     height: 400px;
     /* faz a imagem do fundo cobrir a div */
     background-size: cover;
@@ -122,140 +122,140 @@ header nav a:hover {
 }
 
 .img1 {
-    background:url('/img/filmes/agente_das_sombras.jpg');
+    background:url('../img/filmes/agente_das_sombras.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .img2 {
-    background:url('/img/filmes/alerta_vermelho.jpg');
+    background:url('../img/filmes/alerta_vermelho.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .img3 {
-    background:url('/img/filmes/batman.jpg');
+    background:url('../img/filmes/batman.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .img4 {
-    background:url('/img/filmes/encanto.jpg');
+    background:url('../img/filmes/encanto.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .img5 {
-    background:url('/img/filmes/gold.jpg');
+    background:url('../img/filmes/gold.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .img6 {
-    background:url('/img/filmes/homem_aranha_sem_volta_para_casa.jpg');
+    background:url('../img/filmes/homem_aranha_sem_volta_para_casa.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .img7 {
-    background:url('/img/filmes/o_projeto_adam.jpg');
+    background:url('../img/filmes/o_projeto_adam.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .img8 {
-    background:url('/img/filmes/red_crescer_e_uma_fera.jpg');
+    background:url('../img/filmes/red_crescer_e_uma_fera.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .img9 {
-    background:url('/img/filmes/sem_saida.jpg');
+    background:url('../img/filmes/sem_saida.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .img10 {
-    background:url('/img/filmes/um_dia_dificil.jpg');
+    background:url('../img/filmes/um_dia_dificil.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .s_img1 {
-    background:url('/img/series/all_of_us_are_dead.jpg');
+    background:url('../img/series/all_of_us_are_dead.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .s_img2 {
-    background:url('/img/series/euphoria.jpg');
+    background:url('../img/series/euphoria.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .s_img3 {
-    background:url('/img/series/flash.jpg');
+    background:url('../img/series/flash.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .s_img4 {
-    background:url('/img/series/good_doctor.jpg');
+    background:url('../img/series/good_doctor.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .s_img5 {
-    background:url('/img/series/lucifer.jpg');
+    background:url('../img/series/lucifer.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .s_img6 {
-    background:url('/img/series/paixoes_ardentes.jpg');
+    background:url('../img/series/paixoes_ardentes.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .s_img7 {
-    background:url('/img/series/peaky_blinders.jpg');
+    background:url('../img/series/peaky_blinders.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .s_img8 {
-    background:url('/img/series/twd.jpg');
+    background:url('../img/series/twd.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .s_img9 {
-    background:url('/img/series/two_conjectures_about_marriage.jpg');
+    background:url('../img/series/two_conjectures_about_marriage.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
 }
 
 .s_img10 {
-    background:url('/img/series/vikings.jpg');
+    background:url('../img/series/vikings.jpg');
     height: 390px;
     background-size: cover;
     border: 3px solid white;
